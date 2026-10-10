@@ -64,3 +64,9 @@ a {
 .bold {
   font-weight: 600;
 }
+
+.code {
+  font-family: monospace;
+  line-height:  3.4;
+  font-size: 1rem;
+}
