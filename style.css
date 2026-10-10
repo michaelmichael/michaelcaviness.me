@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light;
+
+  --background: #fafaf8;
+  --foreground: #252525;
+  --muted: #666;
+  --border: #ddd;
+  --link: #385b70;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --background: #1c1c1b;
+    --foreground: #d4d4d0;
+    --muted: #999994;
+    --border: #3a3a38;
+    --link: #a0b9c9;
+  }
+}
+
+body {
+  max-width: 42rem;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+
+  font-family: "Commissioner", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+
+  background: var(--background);
+  color: var(--foreground);
+}
+
+h1, h2, h3 {
+  font-family: "Alegreya", Georgia, serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 3px;
+}
+
+.bold {
+  font-weight: 600;
+}
